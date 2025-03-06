@@ -1,0 +1,64 @@
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\appsettings.Development.json
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\appsettings.json
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Employee Management.exe
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Employee Management.deps.json
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Employee Management.runtimeconfig.json
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Employee Management.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Employee Management.pdb
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Google.Protobuf.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\K4os.Compression.LZ4.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\K4os.Compression.LZ4.Streams.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\K4os.Hash.xxHash.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.OpenApi.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\MySql.Data.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\System.IO.Pipelines.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\System.Security.Permissions.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\System.Text.Json.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\System.Windows.Extensions.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\ZstdSharp.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\runtimes\win-x64\native\comerr64.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\runtimes\win-x64\native\gssapi64.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\runtimes\win-x64\native\k5sprt64.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\runtimes\win-x64\native\krb5_64.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\runtimes\win-x64\native\krbcc64.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Windows.Extensions.dll
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.csproj.AssemblyReference.cache
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.GeneratedMSBuildEditorConfig.editorconfig
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.AssemblyInfoInputs.cache
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.AssemblyInfo.cs
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.csproj.CoreCompileInputs.cache
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.MvcApplicationPartsAssemblyInfo.cs
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.MvcApplicationPartsAssemblyInfo.cache
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.sourcelink.json
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\staticwebassets.build.json
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\staticwebassets.development.json
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\staticwebassets\msbuild.Employee Management.Microsoft.AspNetCore.StaticWebAssets.props
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\staticwebassets\msbuild.build.Employee Management.props
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Employee Management.props
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Employee Management.props
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\staticwebassets.pack.json
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\scopedcss\bundle\Employee Management.styles.css
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee.00B75999.Up2Date
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.dll
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\refint\Employee Management.dll
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.pdb
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.genruntimeconfig.cache
+I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\ref\Employee Management.dll
