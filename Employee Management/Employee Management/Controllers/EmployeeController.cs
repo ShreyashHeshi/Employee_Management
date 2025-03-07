@@ -1,9 +1,11 @@
 ﻿using Employee_Management.Entities;
 using Employee_Management.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Employee_Management.Controllers
 {
+    //[Authorize] // Secure all endpoints with JWT
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeeController: ControllerBase
@@ -34,6 +36,7 @@ namespace Employee_Management.Controllers
             return emp;
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         public ActionResult<Employee> Add(Employee employee)
         {
@@ -42,6 +45,7 @@ namespace Employee_Management.Controllers
             return Ok();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPut("{id}")]
         public ActionResult Update(EmployeeDTO.EmployeeDTO employeeDTO,int id)
         {
@@ -58,6 +62,7 @@ namespace Employee_Management.Controllers
 
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         { 

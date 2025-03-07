@@ -62,3 +62,13 @@ I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\
 I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.pdb
 I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\Employee Management.genruntimeconfig.cache
 I:\Employee_Management\Employee Management\Employee Management\obj\Debug\net8.0\ref\Employee Management.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\BCrypt.Net-Next.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

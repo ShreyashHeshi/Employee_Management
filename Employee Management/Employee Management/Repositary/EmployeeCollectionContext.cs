@@ -7,6 +7,8 @@ namespace Employee_Management.Repositary
     {
         public DbSet<Employee> Employees { get; set; }
 
+        public DbSet<User> Users { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
@@ -28,6 +30,17 @@ namespace Employee_Management.Repositary
                 entity.Property(e => e.Employee_Join_Date);
             });
             modelBuilder.Entity<Employee>().ToTable("employee");
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasKey(u => u.UserId);
+                entity.Property(u => u.UserName).IsRequired();
+                entity.Property(u => u.Email).IsRequired();
+                entity.Property(u => u.PasswordHash).IsRequired();
+                entity.Property(u => u.Role).IsRequired();
+            });
+
+            modelBuilder.Entity<User>().ToTable("users");
         }
 
 

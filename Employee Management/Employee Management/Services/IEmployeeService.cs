@@ -1,4 +1,5 @@
-﻿using Employee_Management.Entities;
+﻿using Employee_Management.EmployeeDTO;
+using Employee_Management.Entities;
 
 namespace Employee_Management.Services
 {
@@ -14,6 +15,8 @@ namespace Employee_Management.Services
         void UpdateEmployee(Employee employee, int id);
 
         Employee DeleteEmployee(Employee employee);
+
+        
 
 
 

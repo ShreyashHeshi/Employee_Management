@@ -1,5 +1,7 @@
-﻿using Employee_Management.Entities;
+﻿using Employee_Management.EmployeeDTO;
+using Employee_Management.Entities;
 using Employee_Management.Repositary;
+using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Security;
 
 namespace Employee_Management.Services
@@ -54,5 +56,7 @@ namespace Employee_Management.Services
             _context.Employees.Remove(employee2);
             return employee2;
         }
+
+       
     }
 }
