@@ -63,6 +63,10 @@ namespace Employee_Management.Controllers
         { 
 
           var empId = _employeeService.GetById(id);
+            if(empId == null)
+            {
+                return NotFound();
+            }
             _employeeService.DeleteEmployee(empId);
             _employeeService.save();
 
