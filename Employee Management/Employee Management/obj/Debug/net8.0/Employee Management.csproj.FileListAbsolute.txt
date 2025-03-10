@@ -72,3 +72,9 @@ I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\
 I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Castle.Core.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\Moq.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\xunit.abstractions.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\xunit.assert.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\xunit.core.dll
+I:\Employee_Management\Employee Management\Employee Management\bin\Debug\net8.0\xunit.execution.dotnet.dll

@@ -7,6 +7,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using BCrypt.Net;
+using Mysqlx.Expr;
 //using Org.BouncyCastle.Crypto.Generators;
 
 namespace Employee_Management.Services
@@ -46,13 +47,19 @@ namespace Employee_Management.Services
 
             var authClaims = new List<Claim>
             {
-                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.Name, user.UserName), // claims comes from System.security.claims
                 new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.Role, user.Role),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+                // jwtRegisteredClaimsNames from System.IdentityModel.Tokens.Jwt
+                // guid means globally unique identifier 
+                // Guid.NewGuid() generates a new unique identifier every time the method is executed.
+//JwtRegisteredClaimNames.Jti stands for "JWT ID", which is a unique identifier for each JWT token.
+//This helps prevent token replay attacks, ensuring that each JWT has a unique ID.
             };
 
             var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
+            // fetches jwt secret key from appsetting.json. convert string key into byte array and create signing key
             var token = new JwtSecurityToken(
                 issuer: _configuration["Jwt:Issuer"],
                 audience: _configuration["Jwt:Audience"],

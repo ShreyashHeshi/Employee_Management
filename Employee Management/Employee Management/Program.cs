@@ -50,6 +50,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthentication(); // add this to enable jwt authentication
+// extract the token and validates it using TokenValidationParameters. if user is valid then claims are available.
 
 app.UseAuthorization();
 
