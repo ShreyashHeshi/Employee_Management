@@ -16,7 +16,10 @@ namespace Employee_Management.Services
 
         Employee DeleteEmployee(Employee employee);
 
-        
+        List<Employee> GetEmployeesWithPagination(int pageNumber, int pageSize);
+
+
+        List<Employee> GetEmployeesWithSorting(string sortBy, string sortOrder);
 
 
 

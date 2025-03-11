@@ -77,10 +77,26 @@ namespace Employee_Management.Controllers
 
             return Ok();
 
-
-
         }
-        
+
+        [HttpGet("pagination")]
+        public ActionResult<IEnumerable<Employee>> GetEmployeesWithPagination(
+        int pageNumber = 1,
+        int pageSize = 5)
+        {
+            var employees = _employeeService.GetEmployeesWithPagination(pageNumber, pageSize);
+            return Ok(employees);
+        }
+
+        [HttpGet("sorting")]
+        public ActionResult<IEnumerable<Employee>> GetEmployeesWithSorting(
+        string sortBy = "Employee_Name",
+        string sortOrder = "asc")
+        {
+            var employees = _employeeService.GetEmployeesWithSorting(sortBy, sortOrder);
+            return Ok(employees);
+        }
+
 
 
     }

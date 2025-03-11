@@ -1,6 +1,7 @@
 ﻿using Employee_Management.EmployeeDTO;
 using Employee_Management.Entities;
 using Employee_Management.Repositary;
+using Microsoft.EntityFrameworkCore;
 using Org.BouncyCastle.Crypto.Generators;
 using Org.BouncyCastle.Security;
 
@@ -57,6 +58,31 @@ namespace Employee_Management.Services
             return employee2;
         }
 
-       
+        public List<Employee> GetEmployeesWithPagination(int pageNumber, int pageSize)
+        {
+            return _context.Employees
+                   .Skip((pageNumber - 1) * pageSize) // Skip previous pages
+                   .Take(pageSize) // Take only required records
+                   .ToList();
+        }
+
+        public List<Employee> GetEmployeesWithSorting(string sortBy, string sortOrder)
+        {
+            var query = _context.Employees.AsQueryable();
+
+            if (!string.IsNullOrEmpty(sortBy))
+            {
+                if (sortOrder.ToLower() == "desc")
+                {
+                    query = query.OrderByDescending(e => EF.Property<object>(e, sortBy));
+                }
+                else
+                {
+                    query = query.OrderBy(e => EF.Property<object>(e, sortBy));
+                }
+            }
+
+            return query.ToList();
+        }
     }
 }
